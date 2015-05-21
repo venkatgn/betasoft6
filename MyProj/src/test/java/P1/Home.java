@@ -20,6 +20,7 @@ public class Home
   {
 	  driver.manage().window().maximize();
 	  driver.get("http://www.yahoomail.com");
+	  System.out.println("opened website");
   }
   public void validate_HomeLinks() throws Exception
   {
